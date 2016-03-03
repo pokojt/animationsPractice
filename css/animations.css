@@ -33,6 +33,13 @@
   100% {background-position: -2800px 0;}
 }*/
 
+@-webkit-keyframes progbarLoad {
+  0% {width: 10%;}
+  40%,
+  60% {width: 50%;}
+  100% {width: 100%;}
+}
+
 /*@-webkit-keyframes rotating-cube {
 
 }*/
@@ -47,3 +54,7 @@
 /*.heart {
   -webkit-animation: heart-bomb 1s steps(28);
 }*/
+
+.progbar:hover {
+  -webkit-animation: progbarLoad 3.2s ease-in-out forwards;
+}

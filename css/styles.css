@@ -61,6 +61,29 @@ body::-webkit-scrollbar {
 
 /* background image contains a new image every 100 px, so the image steps through every 100px a total of 28 times, spaning 2800 px in 1 second. This can be done as a transition only, not just an animation. I've included the animation code commented out anyway ! */
 
+/* Prog Bar Styles -----------------------*/
+
+.progressbarsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.progbarWrapper {
+  width: 40%;
+  background: darkgray;
+  border-radius: 10px;
+  box-shadow: inset 0 0 1px rgba (0,0,0,.6), 0 1px 0 rgba (255,255,255,.1);
+}
+
+.progbar {
+  width: 100%;
+  height: 50px;
+  background-color: #9999ff;
+  border-radius: 10px;
+}
+
 /* Rotating Cube Styles -----------------------*/
 
 /*.cubeWrapper {
