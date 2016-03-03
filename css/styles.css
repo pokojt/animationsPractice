@@ -21,6 +21,12 @@ body::-webkit-scrollbar {
   height: 100%;
 }
 
+.fa {
+  font-size: 35px;
+  color: white;
+  opacity: .4;
+}
+
 /* Square to Circle Styles -----------------------*/
 
 .squareWrapper {
@@ -69,7 +75,7 @@ body::-webkit-scrollbar {
 .progressbarsection {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
 }
