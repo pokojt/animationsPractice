@@ -132,7 +132,7 @@ body::-webkit-scrollbar {
   padding-left: 5px;
   flex-direction: column;
   justify-content: center;
-  padding-top: 13px;
+  padding-top: 5px;
 }
 
 .bar {
