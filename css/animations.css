@@ -37,7 +37,10 @@
   0% {width: 10%;}
   40%,
   60% {width: 50%;}
-  100% {width: 100%;}
+  100% {
+    width: 100%;
+    background-color:#ffb399; 
+  }
 }
 
 /*@-webkit-keyframes rotating-cube {
