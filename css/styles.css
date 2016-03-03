@@ -129,6 +129,7 @@ body::-webkit-scrollbar {
 
 .musicBars {
   display: flex;
+  padding-left: 5px;
   flex-direction: column;
   justify-content: center;
   padding-top: 13px;
