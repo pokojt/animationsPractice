@@ -39,25 +39,20 @@
   60% {width: 50%;}
   100% {
     width: 100%;
-    background-color:#ffb399; 
+    background-color:#ffb399;
   }
 }
-
+@-webkit-keyframes boom {
+  0% {
+    color: #262626;
+  }
+  50% {
+    color: white;
+    letter-spacing: 5px;
+  }
+  100%{
+    color: #262626;
+    letter-spacing: 10px;
+  }
+}
 /*@-webkit-keyframes rotating-cube {
-
-}*/
-
-
-/* Bound Animations */
-
-.squareToCircle {
-  -webkit-animation: square-to-circle 3s 1s ease-in-out infinite alternate;
-}
-
-/*.heart {
-  -webkit-animation: heart-bomb 1s steps(28);
-}*/
-
-.progbar:hover {
-  -webkit-animation: progbarLoad 3.2s ease-in-out forwards;
-}
