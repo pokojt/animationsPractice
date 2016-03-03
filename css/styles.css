@@ -115,10 +115,43 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+.songLabLogo h1 {
   color: white;
+  font-size: 100px;
+}
+
+.songLabLogo {
+  display: flex;
+  width: 50%;
 }
 
 
+.musicBars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 13px;
+}
+
+.bar {
+  width: 80px;
+  margin: 5px;
+  background: #99ccff;
+  height: 15px;
+  border-radius: 5px;
+}
+
+
+.songLabLogo:hover #bar1 {
+  -webkit-animation: musicBars 1s ease-in-out backwards alternate-reverse infinite;
+}
+.songLabLogo:hover #bar2 {
+  -webkit-animation: musicBars 1.2s .2s ease-in-out backwards alternate-reverse infinite;
+}
+.songLabLogo:hover #bar3 {
+  -webkit-animation: musicBars 1.2s 1s ease-in-out backwards alternate-reverse infinite;
+}
 
 
 /* Rotating Cube Styles -----------------------*/

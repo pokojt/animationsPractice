@@ -55,4 +55,23 @@
     letter-spacing: 10px;
   }
 }
+
+
+@-webkit-keyframes musicBars {
+  0% {
+    width: 30px;
+    background:#99ffe6;
+  }
+  50% {
+    width: 90px;
+    background: #b399ff;
+  }
+  100% {
+    width: 70px;
+  }
+}
+
+
+
+
 /*@-webkit-keyframes rotating-cube {
