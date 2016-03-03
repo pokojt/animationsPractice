@@ -1,0 +1,45 @@
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: #262626;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.pageWrapper {
+  height: 100%;
+}
+
+.squareWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.squareToCircle {
+  width: 300px;
+  height: 300px;
+  background-color: salmon;
+}
+
+.cubeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.rotatingCube {
+  
+}

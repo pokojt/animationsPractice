@@ -1,0 +1,38 @@
+/* Keyframes */
+
+@-webkit-keyframes square-to-circle {
+  0% {
+    border-radius: 0 0 0 0;
+    background: salmon;
+    transform: rotate(0deg);
+  }
+  25% {
+    border-radius: 50% 0 0 0;
+    background: #99ccff;
+    transform: rotate(45deg);
+  }
+  50% {
+    border-radius: 50% 50% 0 0;
+    background: #99ffe6;
+    transform: rotate(90deg);
+  }
+  75% {
+    border-radius: 50% 50% 50% 0;
+    background: #ffb399;
+    transform: rotate(135deg);
+  }
+  100% {
+    border-radius: 50%;
+    background: #9999ff;
+    transform: rotate(180deg);
+  }
+}
+
+
+
+
+/* Bound Animations */
+
+.squareToCircle {
+  -webkit-animation: square-to-circle 3s 1s ease-in-out infinite alternate;
+}
