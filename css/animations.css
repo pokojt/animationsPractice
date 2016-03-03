@@ -28,7 +28,14 @@
   }
 }
 
+/*@-webkit-keyframes heart-bomb {
+  0% { background-positon: 0 0;}
+  100% {background-position: -2800px 0;}
+}*/
 
+/*@-webkit-keyframes rotating-cube {
+
+}*/
 
 
 /* Bound Animations */
@@ -36,3 +43,7 @@
 .squareToCircle {
   -webkit-animation: square-to-circle 3s 1s ease-in-out infinite alternate;
 }
+
+/*.heart {
+  -webkit-animation: heart-bomb 1s steps(28);
+}*/
